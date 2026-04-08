@@ -4,6 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>DYSAM – Distribuidora de Saneamiento Ambiental</title>
+  
+  <!-- SEO META TAGS -->
+  <meta name="description" content="Dysam es una distribuidora de productos para el saneamiento ambiental en Paraná, Entre Ríos. Insecticidas, raticidas y control de plagas de primeras marcas." />
+  <meta name="keywords" content="saneamiento ambiental, insecticidas, raticidas, control de plagas, fumigación, Paraná, Entre Ríos, distribuidora, productos sanitarios" />
+  <meta name="author" content="Dysam" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="http://dysam.com.ar" />
+
+  <!-- OPEN GRAPH (Facebook / WhatsApp) -->
+  <meta property="og:title" content="Dysam – Distribuidora de Saneamiento Ambiental" />
+  <meta property="og:description" content="Insecticidas, raticidas y control de plagas de primeras marcas en Paraná, Entre Ríos. Empresa familiar con años de experiencia." />
+  <meta property="og:url" content="http://dysam.com.ar" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="Dysam" />
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Dysam – Distribuidora de Saneamiento Ambiental" />
+  <meta name="twitter:description" content="Insecticidas, raticidas y control de plagas de primeras marcas en Paraná, Entre Ríos." />
+
+  <!-- GEO -->
+  <meta name="geo.region" content="AR-E" />
+  <meta name="geo.placename" content="Paraná, Entre Ríos" />
+
+  <!-- SCHEMA.ORG (Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Dysam",
+    "description": "Distribuidora de productos para el saneamiento ambiental. Insecticidas, raticidas y control de plagas de primeras marcas.",
+    "url": "http://dysam.com.ar",
+    "telephone": "+5493436222202",
+    "email": "juanjosedri55@hotmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paraná",
+      "addressRegion": "Entre Ríos",
+      "addressCountry": "AR"
+    },
+    "openingHours": "Mo-Sa 08:00-18:00",
+    "areaServed": "Paraná, Entre Ríos, Argentina",
+    "priceRange": "$$"
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
@@ -1028,31 +1074,29 @@
 </section>
 
 <!-- FORMULARIO CONSULTA -->
-<section id="consulta" style="background: var(--cream); padding: 7rem 5rem;">
-  <div style="max-width: 680px; margin: 0 auto; text-align: center;">
+<section id="consulta" style="background: var(--cream); padding: 5rem 2rem;">
+  <div style="max-width: 620px; margin: 0 auto; text-align: center;">
     <div class="section-tag">¿Tenés alguna duda?</div>
-    <h2 class="section-title" style="margin-bottom: 1rem;">Hacenos tu consulta</h2>
-    <p style="color:#666; font-size:1rem; font-weight:300; margin-bottom: 3rem;">Completá el formulario y te respondemos a la brevedad.</p>
+    <h2 class="section-title" style="margin-bottom: 1rem; color: var(--green-deep);">Hacenos tu consulta</h2>
+    <p style="color:#444; font-size:1rem; font-weight:400; margin-bottom: 2.5rem;">Completá el formulario y te respondemos a la brevedad.</p>
     <div style="display:flex; flex-direction:column; gap:1.2rem; text-align:left;">
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.2rem;">
-        <div>
-          <label style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--green-deep); display:block; margin-bottom:0.4rem;">Nombre</label>
-          <input type="text" id="fnombre" placeholder="Tu nombre" style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ddd; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ddd'"/>
-        </div>
-        <div>
-          <label style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--green-deep); display:block; margin-bottom:0.4rem;">Teléfono</label>
-          <input type="tel" id="ftelefono" placeholder="Tu teléfono (opcional)" style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ddd; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ddd'"/>
-        </div>
+      <div>
+        <label style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--green-deep); display:block; margin-bottom:0.4rem;">Nombre</label>
+        <input type="text" id="fnombre" placeholder="Tu nombre" style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ccc; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none; box-sizing:border-box;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ccc'"/>
+      </div>
+      <div>
+        <label style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--green-deep); display:block; margin-bottom:0.4rem;">Teléfono <span style="font-weight:300; text-transform:none; letter-spacing:0;">(opcional)</span></label>
+        <input type="tel" id="ftelefono" placeholder="Tu teléfono" style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ccc; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none; box-sizing:border-box;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ccc'"/>
       </div>
       <div>
         <label style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--green-deep); display:block; margin-bottom:0.4rem;">Email</label>
-        <input type="email" id="femail" placeholder="tucorreo@email.com" style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ddd; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ddd'"/>
+        <input type="email" id="femail" placeholder="tucorreo@email.com" style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ccc; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none; box-sizing:border-box;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ccc'"/>
       </div>
       <div>
         <label style="font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--green-deep); display:block; margin-bottom:0.4rem;">Mensaje</label>
-        <textarea id="fmensaje" rows="5" placeholder="Contanos en qué podemos ayudarte..." style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ddd; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none; resize:vertical;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ddd'"></textarea>
+        <textarea id="fmensaje" rows="5" placeholder="Contanos en qué podemos ayudarte..." style="width:100%; padding:0.9rem 1rem; border:1.5px solid #ccc; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; background:white; outline:none; resize:vertical; box-sizing:border-box;" onfocus="this.style.borderColor='#1db954'" onblur="this.style.borderColor='#ccc'"></textarea>
       </div>
-      <button type="button" onclick="enviarConsulta()" style="background:var(--green-deep); color:white; padding:1.1rem 2rem; border:none; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; cursor:pointer; transition:background .25s;" onmouseover="this.style.background='#1db954'" onmouseout="this.style.background='#0a3622'">
+      <button type="button" onclick="enviarConsulta()" style="background:var(--green-deep); color:white; padding:1.1rem 2rem; border:none; border-radius:4px; font-family:var(--font-body); font-size:0.95rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; cursor:pointer; transition:background .25s; width:100%;" onmouseover="this.style.background='#1db954'" onmouseout="this.style.background='#0a3622'">
         Enviar Consulta ✉️
       </button>
       <div id="fmsg" style="display:none; text-align:center; padding:1rem; border-radius:4px;"></div>
@@ -1060,30 +1104,43 @@
   </div>
 </section>
 
+<style>
+  .footer-grid { padding:3rem 5rem; display:grid; grid-template-columns:1.5fr 1fr 1fr 1fr; gap:2rem; align-items:start; border-bottom:1px solid #1f1f1f; }
+  .footer-bottom { padding:1.2rem 5rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; }
+  @media (max-width:768px) {
+    .footer-grid { grid-template-columns:1fr 1fr; padding:2rem 1.5rem; gap:1.5rem; }
+    .footer-grid > div:first-child { grid-column:span 2; }
+    .footer-bottom { padding:1rem 1.5rem; flex-direction:column; text-align:center; }
+  }
+  @media (max-width:480px) {
+    .footer-grid { grid-template-columns:1fr; }
+    .footer-grid > div:first-child { grid-column:span 1; }
+  }
+</style>
 <footer style="background:#0d0d0d; color:#888; border-top:1px solid #1f1f1f;">
-  <div style="padding:3rem 5rem; display:grid; grid-template-columns:1.5fr 1fr 1fr 1fr; gap:2rem; align-items:start; border-bottom:1px solid #1f1f1f;">
+  <div class="footer-grid">
     <div>
       <div style="font-family:var(--font-display); font-size:2rem; color:#fff; letter-spacing:0.12em; margin-bottom:0.8rem;">DY<span style="color:#1db954;">S</span>AM</div>
       <p style="font-size:0.82rem; line-height:1.65; color:#666; font-weight:300;">Distribuidora de productos para el saneamiento ambiental. Primeras marcas del mercado en Paraná, Entre Ríos.</p>
     </div>
     <div>
-      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#1db954; margin-bottom:0.8rem;">Ubicacion</div>
-      <div style="font-size:0.88rem; line-height:1.7; color:#aaa;">Zona Sur - Parana<br>Entre Rios, Argentina</div>
+      <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#1db954; margin-bottom:0.8rem;">Ubicación</div>
+      <div style="font-size:0.88rem; line-height:1.7; color:#aaa;">Zona Sur – Paraná<br>Entre Ríos, Argentina</div>
     </div>
     <div>
       <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#1db954; margin-bottom:0.8rem;">Contacto</div>
       <div style="font-size:0.88rem; line-height:1.9; color:#aaa;">
         <a href="https://wa.me/5493436222202" target="_blank" style="color:#aaa; text-decoration:none;">+54 9 3436 22-2202</a><br>
-        <a href="/cdn-cgi/l/email-protection#81ebf4e0efebeef2e4e5f3e8b4b4c1e9eef5ece0e8edafe2eeec" style="color:#aaa; text-decoration:none;"><span class="__cf_email__" data-cfemail="9df7e8fcf3f7f2eef8f9eff4a8a8ddf5f2e9f0fcf4f1b3fef2f0">[email&#160;protected]</span></a>
+        <a href="mailto:juanjosedri55@hotmail.com" style="color:#aaa; text-decoration:none;">juanjosedri55@hotmail.com</a>
       </div>
     </div>
     <div>
       <div style="font-size:0.7rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:#1db954; margin-bottom:0.8rem;">Horario</div>
-      <div style="font-size:0.88rem; line-height:1.7; color:#aaa;">Lunes a Sabado<br>8:00 a 18:00 hs</div>
+      <div style="font-size:0.88rem; line-height:1.7; color:#aaa;">Lunes a Sábado<br>8:00 a 18:00 hs</div>
     </div>
   </div>
-  <div style="padding:1.2rem 5rem; display:flex; align-items:center; justify-content:space-between;">
-    <div style="font-size:0.75rem;">2025 Dysam - Todos los derechos reservados</div>
+  <div class="footer-bottom">
+    <div style="font-size:0.75rem;">© 2025 Dysam · Todos los derechos reservados</div>
     <div style="font-size:0.75rem;">Distribuidor de <span style="color:#1db954;">primeras marcas</span></div>
   </div>
 </footer>
